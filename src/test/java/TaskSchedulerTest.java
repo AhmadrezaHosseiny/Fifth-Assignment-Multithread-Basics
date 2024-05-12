@@ -8,7 +8,7 @@ import sbu.cs.TaskScheduler;
 public class TaskSchedulerTest {
 
     @Test
-    public void test1() {
+    public void test1() throws InterruptedException {
         ArrayList<Task> tasks = new ArrayList<>();
 
         tasks.add(new Task("A", 100));
@@ -21,7 +21,7 @@ public class TaskSchedulerTest {
     }
 
     @Test
-    public void test2() {
+    public void test2() throws InterruptedException {
         ArrayList<Task> tasks = new ArrayList<>();
 
         tasks.add(new Task("A", 200));
